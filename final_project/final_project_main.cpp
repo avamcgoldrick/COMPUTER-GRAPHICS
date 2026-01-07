@@ -203,27 +203,27 @@ static glm::vec3 lightPosition(-275.0f, 500.0f, 800.0f);
 static bool playAnimation = true;
 static float playbackSpeed = 2.0f;
 
-static const char* SKY_PX_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/skybox/right.png";
-static const char* SKY_NX_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/skybox/left.png";
-static const char* SKY_PY_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/skybox/top.png";
-static const char* SKY_NY_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/skybox/bottom.png";
-static const char* SKY_PZ_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/skybox/front.png";
-static const char* SKY_NZ_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/skybox/back.png";
+static const char* SKY_PX_PATH = "../final_project/final_project/skybox/right.png";
+static const char* SKY_NX_PATH = "../final_project/final_project/skybox/left.png";
+static const char* SKY_PY_PATH = "../final_project/final_project/skybox/top.png";
+static const char* SKY_NY_PATH = "../final_project/final_project/skybox/bottom.png";
+static const char* SKY_PZ_PATH = "../final_project/final_project/skybox/front.png";
+static const char* SKY_NZ_PATH = "../final_project/final_project/skybox/back.png";
 
-static const char* BOT_GLTF_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/model/bot/bot.gltf";
-static const char* BOT_VERT_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/shader/bot.vert";
-static const char* BOT_FRAG_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/shader/bot.frag";
+static const char* BOT_GLTF_PATH = "../final_project/final_project/model/bot/bot.gltf";
+static const char* BOT_VERT_PATH = "../final_project/final_project/shader/bot.vert";
+static const char* BOT_FRAG_PATH = "../final_project/final_project/shader/bot.frag";
 
 static const char* SKYBOX_VERT_PATH =
-"C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/shader/skybox.vert";
+"../final_project/final_project/shader/skybox.vert";
 static const char* SKYBOX_FRAG_PATH =
-"C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/shader/skybox.frag";
+"../final_project/final_project/shader/skybox.frag";
 
-static const char* CLOUD_GLTF_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/cloud/scene.gltf";
-static const char* CLOUD_VERT_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/shader/cloud.vert";
-static const char* CLOUD_FRAG_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/shader/cloud.frag";
-static const char* CLOUD_COLOR_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/cloud/textures/Cloud_baseColor.png";
-static const char* CLOUD_NORMAL_PATH = "C:/Users/avamc/OneDrive/Desktop/College/Year4/graphics/final_project/final_project/cloud/textures/Cloud_normal.png";
+static const char* CLOUD_GLTF_PATH = "../final_project/final_project/cloud/scene.gltf";
+static const char* CLOUD_VERT_PATH = "../final_project/final_project/shader/cloud.vert";
+static const char* CLOUD_FRAG_PATH = "../final_project/final_project/shader/cloud.frag";
+static const char* CLOUD_COLOR_PATH = "../final_project/final_project/cloud/textures/Cloud_baseColor.png";
+static const char* CLOUD_NORMAL_PATH = "../final_project/final_project/cloud/textures/Cloud_normal.png";
 
 static const float BOT_SCALE = 1.5f;
 static const float CLOUD_SCALE = 45.0f;     
